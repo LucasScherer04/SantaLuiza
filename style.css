@@ -104,6 +104,8 @@ main {
     border-radius: 22px;
     height: 70%;
     object-fit: cover;
+    border-color: #050505;
+    border-style: groove;
 }
 
 .card h3 {
