@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background-color: #F5F7F8;
+    flex:0;
+}
+
+.logoDireito {
+    display: flex;
+    flex: 1;
+    width: 200px;
+    height: 170px;
+    padding: 10px;
+}
+
+.titulo {
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+}
+
+.titulo h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family:'Dancing Script', cursive; 
+}
+
+.titulo p {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-family:'Times new roman', cursive;
+    margin-top: -27px;
+}
+
+.logoEsquerdo {
+    display: flex;
+    flex: 1;
+    width: 100vw;
+    height: 170px;
+    padding:10px;
+}
+
+main {
+    display: flex;
+    flex:1;
+    background-color: #F5F7F8;
+}
+
+#esquerda {
+    display:flex;
+    flex: 1;
+    background-image: url("esquerda.png");
+    border-radius: 5px;
+    background-size: cover;
+    height: 100%;
+}
+
+#centro {
+    display:flex;
+    flex: 5;
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: center;
+}
+
+#direita {
+    display:flex;
+    flex: 1;
+    background-image: url("direita.jpg");
+    border-radius: 5px;
+    background-size: cover;
+    height: 100%;
+}
+
+.Abas-pesquisa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display:flex;
+    flex-direction:column;
+    padding: 10px; /* Ajuste o padding conforme necessário */
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
+
+.card img {
+    border-radius: 22px;
+    height: 70%;
+    object-fit: cover;
+}
+
+.card h3 {
+    text-align: center; /* Centraliza o texto horizontalment */
+    padding: 1px;
+    font-size: 22px;
+}
+
+.Comida {
+    display:flex;
+    flex: 3;
+    padding: 10px; /* Ajuste o padding conforme necessário */
+    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    margin: 5px;
+    background-image: url("Comida.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Menu {
+    display:flex;
+    flex: 7;
+    padding: 5px; /* Ajuste o padding conforme necessário */
+    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    margin: 5px;
+    background-image: url("menu.jpg");
+    background-size: cover;
+}
+
+.Sobremesa {
+    display:flex;
+    flex: 3;
+    padding: 10px; /* Ajuste o padding conforme necessário */
+    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("Sobremesa.jpeg");
+    background-size: cover;
+}
+
+.Interno {
+    margin: 10px;
+    display:flex;
+    flex: 5;
+    padding: 10px; /* Ajuste o padding conforme necessário */
+    border-radius: 20px;
+    width: 100vw;
+    background-image: url("Ambiente.png");
+    background-size: cover;
+}
+
+.Externo {
+    margin: 10px;
+    display:flex;
+    flex: 5;
+    padding: 10px; /* Ajuste o padding conforme necessário */
+    border-radius: 20px;
+    width: 100vw;
+    background-image: url("externo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    flex:0;
+}
