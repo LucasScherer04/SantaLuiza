@@ -96,6 +96,8 @@ main {
     width: 500px;
     height: 300px;
     margin: 10px;
+    border-color: #050505;
+    border-style: groove;
 }
 
 .card img {
@@ -108,6 +110,21 @@ main {
     text-align: center; /* Centraliza o texto horizontalment */
     padding: 1px;
     font-size: 22px;
+}
+
+.card a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #100f0f; /* Borda preta de 2px */
+    border-radius: 20px;
+    background-color: #f2f2f2; /* Cor de fundo cinza claro */
+    color: #050505;
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #ddd;
 }
 
 .Comida {
