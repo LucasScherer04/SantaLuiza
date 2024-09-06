@@ -140,6 +140,8 @@ main {
     background-image: url("Comida.jpeg");
     background-size: cover;
     background-position: center;
+    border-color: #050505;
+    border-style: groove;
 }
 
 .Menu {
@@ -152,6 +154,8 @@ main {
     margin: 5px;
     background-image: url("menu.jpg");
     background-size: cover;
+    border-color: #050505;
+    border-style: groove;
 }
 
 .Sobremesa {
@@ -163,6 +167,8 @@ main {
     height: 100vh;
     background-image: url("Sobremesa.jpeg");
     background-size: cover;
+    border-color: #050505;
+    border-style: groove;
 }
 
 .Interno {
@@ -174,6 +180,8 @@ main {
     width: 100vw;
     background-image: url("Ambiente.png");
     background-size: cover;
+    border-color: #050505;
+    border-style: groove;
 }
 
 .Externo {
@@ -186,6 +194,8 @@ main {
     background-image: url("externo.jpg");
     background-size: cover;
     background-position: center;
+    border-color: #050505;
+    border-style: groove;
 }
 
 footer {
